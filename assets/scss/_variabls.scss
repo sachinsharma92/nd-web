@@ -1,0 +1,46 @@
+// Font Family
+$poppins: "Poppins", sans-serif;
+$montserrat: "Montserrat";
+$pacifico: "Pacifico";
+$chewy: "Chewy";
+$worksans: "Work Sans";
+$rochester: "Rochester", cursive;
+$vandella: "Vandella";
+$jellybelly: "JellyBelly Font";
+
+// text Colors ---------------
+$white: #ffffff;
+$black: #000000;
+$grey: #fafafa;
+$gray2: #f4f3ef;
+
+// Theme Color
+$theme-color-black: #333333;
+$theme-color-dark-blue: #0a1039;
+$theme-color-yellow: #eba866;
+$theme-color-green: #91aa74;
+$theme-color-green-2: #c3ddd0;
+$theme-color-green-3: #62bc77;
+$theme-color-chocolate: #885643;
+$theme-color-pink: #ff437d;
+$theme-color-pink-2: #d60b5e;
+$theme-color-brown: #cf7f39;
+$theme-color-red: #d02f3b;
+$theme-color-blue: #1ea9d3;
+
+// Responsive Variables
+$xx-layout: "only screen and (min-width: 1366px) and (max-width: 1600px)";
+$xl-layout: "only screen and (min-width: 1200px) and (max-width: 1365px)";
+$lg-layout: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$md-layout: "only screen and (min-width: 768px) and (max-width: 991px)";
+$xs-layout: "only screen and (max-width: 767px)";
+$sm-layout: "only screen and (min-width: 576px) and (max-width: 767px)";
+
+@mixin img-object {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}

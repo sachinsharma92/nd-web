@@ -1,0 +1,219 @@
+@import "variabls";
+
+// Global Style
+.slider-content-12 {
+  display: flex;
+  flex-direction: column;
+  max-width: 55%;
+  padding: 20px;
+  border-radius: 10px;
+
+  p {
+    width: 100%;
+    color: $theme-color-black;
+  }
+}
+
+// banner-img-2
+.banner-img-2 {
+  height: 304px;
+  position: relative;
+  overflow: hidden;
+
+  img {
+    @include img-object;
+  }
+}
+
+// about-area
+.about-area {
+  margin-top: 100px;
+  background-position: center 60%;
+}
+
+.instagram-area {
+  .single-instafeed {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba($black, 0.4);
+      content: "";
+      z-index: 1;
+    }
+  }
+
+  .single-instafeed.img-big {
+    height: 646px;
+
+    img {
+      @include img-object;
+    }
+  }
+
+  .small-card {
+    height: 308px;
+
+    img {
+      @include img-object;
+    }
+  }
+
+  .medium-card {
+    height: 400px;
+
+    img {
+      @include img-object;
+    }
+  }
+
+  .title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: $white;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 2;
+  }
+}
+
+.instagram-area2 {
+  .single-instafeed {
+    height: 400px;
+    background-color: red;
+    position: relative;
+
+    &.style-half {
+      height: 185px;
+    }
+
+    img {
+      @include img-object;
+    }
+  }
+}
+
+// categorie-area
+.categorie-area {
+  .single-categories-5-img {
+    height: 70px;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      object-fit: contain;
+    }
+  }
+}
+
+// header-area-custom
+.header-area-custom {
+  .header-bottom-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+  }
+
+  .action-section {
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+  }
+}
+
+// breadcrumb-area
+.breadcrumb-area {
+  p {
+    color: $theme-color-black;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+// breadcrumb-home-1
+.breadcrumb-home-1 {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  .breadcrumb-img-1 {
+    scale: 1.4;
+    opacity: 0.63;
+    margin-top: 50px;
+    left: -8vw;
+    rotate: 15deg;
+
+    @media only screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  .breadcrumb-img-2 {
+    scale: 1.1;
+    opacity: 0.6;
+    margin-top: 70px;
+
+    @media only screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+}
+
+// offers-sec
+.offers-sec {
+  background: $gray2;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $theme-color-black;
+  font-weight: 500;
+
+  @media only screen and (max-width: 767px) {
+    padding: 20px;
+    height: auto;
+    flex-direction: column;
+    font-size: 12px;
+  }
+
+  .blink {
+    background: #ffa99c;
+    padding: 0 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+
+    @media only screen and (max-width: 767px) {
+      margin-top: 10px;
+    }
+  }
+}
+
+// bg green 2
+.bg-green2 {
+  background-color: $theme-color-green-2;
+}
+
+// blink Animation
+.blink {
+  animation: blink-animation 2s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}

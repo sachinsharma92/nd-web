@@ -1,0 +1,223 @@
+.slider-content-12 {
+  display: flex;
+  flex-direction: column;
+  max-width: 55%;
+  padding: 20px;
+  border-radius: 10px;
+}
+.slider-content-12 p {
+  width: 100%;
+  color: #333333;
+}
+
+.banner-img-2 {
+  height: 304px;
+  position: relative;
+  overflow: hidden;
+}
+.banner-img-2 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-area {
+  margin-top: 100px;
+  background-position: center 60%;
+}
+
+.instagram-area .single-instafeed {
+  position: relative;
+}
+.instagram-area .single-instafeed::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  content: "";
+  z-index: 1;
+}
+.instagram-area .single-instafeed.img-big {
+  height: 646px;
+}
+.instagram-area .single-instafeed.img-big img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.instagram-area .small-card {
+  height: 308px;
+}
+.instagram-area .small-card img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.instagram-area .medium-card {
+  height: 400px;
+}
+.instagram-area .medium-card img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.instagram-area .title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.instagram-area2 .single-instafeed {
+  height: 400px;
+  background-color: red;
+  position: relative;
+}
+.instagram-area2 .single-instafeed.style-half {
+  height: 185px;
+}
+.instagram-area2 .single-instafeed img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.categorie-area .single-categories-5-img {
+  height: 70px;
+  position: relative;
+}
+.categorie-area .single-categories-5-img img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.header-area-custom .header-bottom-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+}
+.header-area-custom .action-section {
+  display: flex;
+  align-items: center;
+  gap: 0 40px;
+}
+
+.breadcrumb-area p {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.breadcrumb-home-1 {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.breadcrumb-home-1 .breadcrumb-img-1 {
+  scale: 1.4;
+  opacity: 0.63;
+  margin-top: 50px;
+  left: -8vw;
+  rotate: 15deg;
+}
+@media only screen and (max-width: 767px) {
+  .breadcrumb-home-1 .breadcrumb-img-1 {
+    display: none;
+  }
+}
+.breadcrumb-home-1 .breadcrumb-img-2 {
+  scale: 1.1;
+  opacity: 0.6;
+  margin-top: 70px;
+}
+@media only screen and (max-width: 767px) {
+  .breadcrumb-home-1 .breadcrumb-img-2 {
+    display: none;
+  }
+}
+
+.offers-sec {
+  background: #f4f3ef;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+  font-weight: 500;
+}
+@media only screen and (max-width: 767px) {
+  .offers-sec {
+    padding: 20px;
+    height: auto;
+    flex-direction: column;
+    font-size: 12px;
+  }
+}
+.offers-sec .blink {
+  background: #ffa99c;
+  padding: 0 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+}
+@media only screen and (max-width: 767px) {
+  .offers-sec .blink {
+    margin-top: 10px;
+  }
+}
+
+.bg-green2 {
+  background-color: #c3ddd0;
+}
+
+.blink {
+  -webkit-animation: blink-animation 2s steps(5, start) infinite;
+          animation: blink-animation 2s steps(5, start) infinite;
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=style.css.map */
