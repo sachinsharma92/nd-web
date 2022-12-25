@@ -217,3 +217,14 @@
     visibility: hidden;
   }
 }
+
+// product-img
+.bg-gray-product {
+  background-color: $grey;
+  padding: 20px;
+
+  img {
+    object-fit: contain !important;
+    mix-blend-mode: darken;
+  }
+}

@@ -220,4 +220,13 @@
   to {
     visibility: hidden;
   }
+}
+.bg-gray-product {
+  background-color: #fafafa;
+  padding: 20px;
+}
+.bg-gray-product img {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+  mix-blend-mode: darken;
 }/*# sourceMappingURL=style.css.map */
