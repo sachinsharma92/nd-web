@@ -20086,7 +20086,7 @@ textarea:focus {
   left: 0;
   right: 0;
   text-align: center;
-  bottom: 70px;
+  bottom: 120px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -20140,7 +20140,7 @@ textarea:focus {
 
 .offer-product-wrap .mega-fashion-pro-title2 {
   position: absolute;
-  top: 90px;
+  top: -20px;
   left: 60px;
   right: 60px;
   text-align: center;
